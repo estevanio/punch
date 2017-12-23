@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/big_grey"
+    android:orientation="horizontal"
+    android:padding="@dimen/box_border"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/leftSide"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/box_border"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@color/little_grey" >
+
+        <LinearLayout
+            android:id="@+id/comboNumsBox"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="@dimen/box_border">
+
+            <TextView
+                android:id="@+id/comboNums"
+                android:layout_width="match_parent"
+                android:layout_height="77dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/hey_fatty_"
+                android:textColor="@color/red"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rightSide"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/comboNamesBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/box_border"
+            android:layout_weight="1"
+            android:background="@color/little_grey"
+            android:gravity="center"
+            android:padding="@dimen/buttton_border" >
+
+            <TextView
+                android:id="@+id/comboNames"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="@string/click"
+                android:textColor="@color/red"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="@dimen/box_border"
+            android:layout_weight="1"
+            android:background="@color/little_grey"
+            android:gravity="center"
+            android:padding="@dimen/buttton_border" >
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/buttton_border"
+                android:layout_weight="1"
+                android:background="@color/red_red"
+                android:onClick="processClicks"
+                android:src="@drawable/navigation_back" />
+
+            <ImageButton
+                android:id="@+id/shuffle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/buttton_border"
+                android:layout_weight="1"
+                android:background="@color/red_red"
+                android:onClick="processClicks"
+                android:src="@drawable/av_shuffle" />
+
+            <ImageButton
+                android:id="@+id/forward"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/buttton_border"
+                android:layout_weight="1"
+                android:background="@color/red_red"
+                android:onClick="processClicks"
+                android:src="@drawable/navigation_forward" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

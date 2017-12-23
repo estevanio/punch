@@ -1,0 +1,65 @@
+
+<resources>
+
+    <string name="app_name">fattyPunch</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hey_fatty_">hey fatty!</string>
+    <string name="describe">combo description</string>
+    
+    <string-array name="comb_d">
+    <item>Yes, the basic 1–2 jab–cross is naturally the first combination you learn how to throw. It’s the first two punches you’ve ever thrown together and you’ve probably been doing it long before you started boxing…probably on your little brother or your annoying next door neighbor. The fast jab catches your opponent off guard and the right cross takes his head off. You can actually win entire fights simply by mastering the 1–2.</item>
+    <item>This one is a way to trick your opponent. The 1–1–2 works because your opponent might be expecting a 1–2. If so, then the second jab has a good chance of surprising your opponent opening the way once again for your big right hand. The 1–1–2 is also good if you feel that your opponent is waiting for your right cross to throw a counter. Instead of throwing your usual 1–2, you will throw endless jabs testing the waters (or your opponent’s defense) until he slips up and you put a right cross in there.</item>
+    <item>This is where boxing starts to get fun. The shift of your weight when you throw the right hand naturally sets the left hook up. The left hook comes after your right cross and can put some massive hurting on your opponent. You can aim it high at his jaw or low at his body. Either way, the left hook is equally dangerous regardless of whether or not your right cross lands.</item>
+    <item>This is nothing but you throwing LEFT-RIGHT-LEFT-RIGHT. The jab opens your opponent’s guard. You follow-up with 3 big power punches: right hand, left hook, right hand finish. When the 3 big punches land beautifully, you can pat yourself on the back.</item>
+    <item>This combo is the same as the last except instead of a left hook, you put a left uppercut in there. The left uppercut will surprise your opponent since it’s coming from a downward angle. If the other guy likes to hide behind his high guard with his head down or if he likes to charge into you, the left uppercut will pop his head up so you can chop it off with the right hand finish.</item>
+    <item>Starting with the 1–2 all the time can get a little too predictable. Your opponent might get clever and try to slip the right hand. Or he might simply anticipate a straight right hand and just have his guard up. In either case, throwing a right uppercut into there will do a ton of damage and lift his head up so you can follow up with a left hook – right hand finish. You can aim the right uppercut at the body or the head, it’s your call. Make sure you don’t get too predictable when you do this, because your head is vulnerable to jabs and DEADLY counter left hooks when you throw that right uppercut.</item>
+    <item>Sometimes you don’t have room to setup a whole combination. If you’ve got an overly aggressive opponent that’s invading your space, then you don’t have time to start with the jab. Drop a right hand on him followed by a left hook and another big right hand. If he’s already wide open, why waste your time with a jab? Just start with the hard punches right away. The 2\-3\-2 is very good at close range. Dig your feet and make it hurt.</item>
+    <item>hey fatty!</item>
+    </string-array>
+
+    
+    	<string-array name="comb_names">
+    	    <item>jab-cross</item>
+    	    <item>jab-jab-cross</item>
+    	    <item>jab-cross-left hook</item>
+    		<item>jab-cross-hook-cross</item>
+    		<item>jab-cross-left uppercut-cross</item>
+    		<item>jab-right uppercut-left hook-cross</item>
+    		<item>cross-left hook-cross</item>
+    		</string-array>
+
+    	<string-array name="comb_numbers">
+    	    <item>1–2</item>
+    	    <item>1–1–2</item>
+    	    <item>1–2–3</item>
+    	    <item>1–2–3–2</item>
+    	    <item>1–2–5–2</item>
+    	    <item>1–6–3–2</item>
+    	    <item>2–3–2</item>
+    	</string-array>
+    	    
+    	    <string name="click">push the red buttons!</string>
+    	    <string name="punches">PUNCHES</string>
+    	    <string name="counters">COUNTERS</string>
+    	    <string name="combos">COMBOS</string>
+    	    
+		<string-array name="nums_n_punches">
+    	    <item>null</item>
+    	    <item>jab</item>
+    	    <item>cross</item>
+    	    <item>left-hook</item>
+    	    <item>right-hook</item>
+    	    <item>left-uppercut</item>
+    	    <item>right-uppercut</item>
+    		</string-array>
+    	<string-array name="punch_desc">
+    	    <item>null</item>
+    	    <item>A quick, straight punch thrown with the lead hand from the guard position. The jab is accompanied by a small, clockwise rotation of the torso and hips, while the fist rotates 90 degrees, becoming horizontal upon impact. As the punch reaches full extension, the lead shoulder can be brought up to guard the chin. The rear hand remains next to the face to guard the jaw. After making contact with the target, the lead hand is retracted quickly to resume a guard position in front of the face.</item>
+    	    <item>A powerful, straight punch thrown with the rear hand. From the guard position, the rear hand is thrown from the chin, crossing the body and traveling towards the target in a straight line. The rear shoulder is thrust forward and finishes just touching the outside of the chin. At the same time, the lead hand is retracted and tucked against the face to protect the inside of the chin. For additional power, the torso and hips are rotated counter-clockwise as the cross is thrown.</item>
+    	    <item>A semi-circular punch thrown with the lead hand to the side of the opponent\'s head. From the guard position, the elbow is drawn back with a horizontal fist (knuckles pointing forward) and the elbow bent. The rear hand is tucked firmly against the jaw to protect the chin. The torso and hips are rotated clockwise, propelling the fist through a tight, clockwise arc across the front of the body and connecting with the target.</item>
+    	    <item>A quick, straight punch thrown with the lead hand from the guard position. The jab is accompanied by a small, clockwise rotation of the torso and hips, while the fist rotates 90 degrees, becoming horizontal upon impact. As the punch reaches full extension, the lead shoulder can be brought up to guard the chin. The rear hand remains next to the face to guard the jaw. After making contact with the target, the lead hand is retracted quickly to resume a guard position in front of the face.</item>
+			<item>From the guard position, the torso shifts slightly to the right, the rear hand drops below the level of the opponent\'s chest and the knees are bent slightly. From this position, the rear hand is thrust upwards in a rising arc towards the opponent\'s chin or torso.</item>
+    		</string-array>
+    
+</resources>

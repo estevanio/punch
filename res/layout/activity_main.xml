@@ -1,0 +1,69 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/box_border"
+        android:gravity="center" >
+<LinearLayout
+            android:id="@+id/top_box_four"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/header_four"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/string_four"
+                android:textSize="22sp"/>
+
+            <Button
+                android:id="@+id/cellphone_4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="@string/cell_phone"
+                 />
+
+            <Button
+                android:id="@+id/tablet_4"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+               android:text="@string/tablet"
+                 />
+        </LinearLayout>
+<LinearLayout
+            android:id="@+id/bottom_box_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:gravity="center"
+            android:layout_below="@id/top_box_four">
+
+            <Button
+                android:id="@+id/laptop_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/laptop"
+                 />
+
+            <Button
+                android:id="@+id/desktop_4"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="@string/desktop"
+                />
+
+            <Button
+                android:id="@+id/other_4"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    
+                    android:layout_weight="1"
+          
+                    android:text="@string/other" />
+                                    </LinearLayout></RelativeLayout>
